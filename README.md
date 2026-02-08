@@ -1,2 +1,9 @@
-# sipcall
-app using nksip and cowboy
+sipcall
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile

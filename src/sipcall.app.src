@@ -1,0 +1,15 @@
+{application, sipcall, [
+    {description, "Sipcall"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {sipcall_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        nksip
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
